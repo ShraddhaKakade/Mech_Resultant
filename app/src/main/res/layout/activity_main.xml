@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <EditText
+        android:id="@+id/edtxtF1"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Enter Force 1 (in N)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/edtxtF2"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:hint="Enter Force 2 (in N)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <EditText
+        android:id="@+id/edtxtAngle"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:hint="Enter Angle ⊖ (in Deg)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/txtResultant"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:hint="Resultant of the Forces"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtDirection"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:hint="Direction of Resultant Force"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnResultant"
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Resultant"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnDirection"
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Direction"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Clear"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
